@@ -1,0 +1,32 @@
+Travail :
+    - CSS de la page de login
+    - Header
+        * css
+        * responsive
+    - Début css table
+
+
+Fichiers modifiés
+    - application
+        view
+            _templates
+                footer.php
+                header.php
+                header_login.php
+    - public
+        css
+            form_authentification
+                style.css
+            style.css
+            tableStyle.css (nouveau)
+        js
+            header.js (nouveau)
+        img
+            nouvelles images
+
+
+TODO
+    - css du header pour petits ecrans
+    - css tableau
+    -
+

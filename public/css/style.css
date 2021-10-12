@@ -1,0 +1,153 @@
+/*
+ * Header
+ */
+#title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*ajouter par jackson*/
+ul.dropdown-menu > li > a > label {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#azurex {
+  color: #26569f;
+  margin-top: -23px;
+}
+
+.navbar {
+  background-color: #16325c;
+  min-height: 50px;
+  /*width: 100%;*/
+  /*position: relative;*/
+  /*top: -60px;*/
+  /*padding-left: 270px;*/
+  border-radius: 0%;
+}
+.navbar-brand {
+  padding: 0px;
+  width: 400px;
+  display: inline-block;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+  display: inline-block;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #16325c;
+  background-color: #93c5e3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #93c5e3;
+  border-color: #93c5e3;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #16325c;
+  border-color: #93c5e3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #93c5e3;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+ul.dropdown-menu > li > a:hover {
+  background-color: #93c5e3;
+  color: #16325c;
+}
+
+#dataTable_clients_length {
+  margin-left: 20px;
+}
+
+#dataTable_clients_filter {
+  margin-right: 20px;
+}
+.resize-medium {
+  color: #93c5e3;
+  margin-left: 10px;
+}
+ul.dropdown-menu {
+  background-color: #16325c;
+  color: #fff;
+}
+
+/* TABLE */
+table {
+  padding-left: 10px;
+}
+.favTxt {
+  color: transparent;
+}
+.favStar0:hover,
+.favStar1 {
+  color: yellow;
+  text-shadow: 0 0 3px black;
+  font-size: 1.5em;
+}
+.favStar0,
+.favStar1:hover {
+  color: #fff;
+  text-shadow: 0 0 3px black;
+  font-size: 1.5em;
+}
+.dataTables_length {
+  margin-left: 10px;
+}
+#showFavori {
+  position: relative;
+  right: -6px;
+}
+
+/* MODAL */
+#btn_form_insert,
+#btn_form_update,
+#btn_form_insert_cat,
+#btnCloseContact,
+#btn_form_update_client,
+#btn_form_insert_client {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* USER */
+.td_user_0 {
+  opacity: 0.5;
+}
+
+/* Partout */
+.vertical-align {
+  vertical-align: 50%;
+}
+#nbResult {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0px;
+}
+.displayInline {
+  display: inline;
+}
